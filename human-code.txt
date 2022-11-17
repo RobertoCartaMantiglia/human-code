@@ -9,7 +9,7 @@ Valuzationi generali:
 
 
    Valutazione appropriatezza regali:
-      Valutazione 1:    Brutto per Silvia
+      Valutazione 1:  Brutto per Silvia
       Valutazione 2:  Bello per Silvia 
 
    Valutazione Tempistiche:
@@ -21,25 +21,25 @@ Valuzationi generali:
    Definizione Prodotti:
        Definizione Lampada:
          Budget 50 euro
-         approprietezza uguale valutazione 2 
-         tempistiche uguale tempistica 2 
+         approprietezza = valutazione 2 
+         tempistiche = tempistica 2 
 
 
        Definizione Stilografica:
          budget 75 euro
-         appropriatezza uguale valutazione x
-         tempistica uguale tempistica 1 
+         appropriatezza = valutazione x
+         tempistica = tempistica 1 
 
       Definizione Libro:
-         budget uguale x Euro
+         budget = x Euro
          appropriatezza valutazione 2 
-         Tempistica uguale tempistica x 
+         Tempistica = tempistica x 
 
 
       Definizione Gift Card:
          budget 50 Euro
          appropriatezza valutazione 2 
-         Tempistica  uguale 1
+         Tempistica= 1
 
 ----------------------------------------------------------------
 
@@ -65,7 +65,7 @@ valuzatione stilografica
          ALTRIMENTI valuto un'altro prodotto.
 
 
-   SE lampada o stilografica uguale comprato, impacchetta il regalo 
+   SE lampada o stilografica = comprato, impacchetta il regalo 
       ALTRIMENTI Valutazione Libro:
             Valutazione libro  
                -Controllo la pagina Amazon del prodotto Libro:
@@ -74,4 +74,35 @@ valuzatione stilografica
                      ALTRIMENTI Compra una Gift card Amazon da 50 euro.
 
 
-Print Auguri Silvia
+
+---------- esercizio generalizzato --------------
+
+
+lista prodotti da valutare{
+    prodotto 1
+    prodotto 2
+    prodotto 3
+    prodotto 4
+    prodotto 5
+    prodotto 6
+    prodotto 7
+    prodotto 8
+    prodotto 9
+    prodotto 10
+    prodotto 11
+    prodotto 12
+    prodotto 13
+    prodotto 14
+    prodotto 15
+    prodotto 16 = gift card
+}
+- analizza il prodotto 1
+    *** SE il prodotto( soddisfa (Budget 50 euro) e (valutazione = 2) e (tempistica = 1)
+            ALLORA compra ed esci
+            ALTRIMENTI  cancella il prodotto dalla lista e analizza il prodotto successivo (n++1) ***
+        SE prodotto 15 = false
+            ALLORA compra gift card amazon (prodotto 16)
+
+
+
+print auguri Silvia
