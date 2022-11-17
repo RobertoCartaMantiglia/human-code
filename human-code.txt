@@ -8,7 +8,7 @@ Valuzationi generali:
          Budget fisso: 50 Euro 
 
 
-   Valutazione approprietezza regali:
+   Valutazione appropriatezza regali:
       Valutazione 1:    Brutto per Silvia
       Valutazione 2:  Bello per Silvia 
 
@@ -27,19 +27,19 @@ Valuzationi generali:
 
        Definizione Stilografica:
          budget 75 euro
-         approprieatezza uguale valutazione x
+         appropriatezza uguale valutazione x
          tempistica uguale tempistica 1 
 
       Definizione Libro:
          budget uguale x Euro
-         approprieatezza valutazione 2 
+         appropriatezza valutazione 2 
          Tempistica uguale tempistica x 
 
 
       Definizione Gift Card:
          budget 50 Euro
-         approprieatezza valutazione 2 
-         Tempistica  uguale 2
+         appropriatezza valutazione 2 
+         Tempistica  uguale 1
 
 ----------------------------------------------------------------
 
